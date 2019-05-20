@@ -1,6 +1,5 @@
-#BB-Gen
-===
-
+BB-Gen
+Paper executável desenvolvido na disciplina IA369Z - Reprodutibilidade em Pesquisa Computacional - FEEC - Unicamp
 ## About BB-Gen
 BB-Gen is simple CLI based packet crafter written in Python over Scapy library to generate packet flows formatted as PCAP files by taking user-defined parameters as inputs based on the headers defined in a P4<sub>14</sub> program. It can natively crafts packets for different standard and custom protocols. It aims to create PCAP files to be used with a wide set of Traffic Generators (e.g., pktgen-dpdk, NFPA, TCPDUMP, etc.) helping network developers to validate the network and execute performance tests over the targets.
 
