@@ -1,4 +1,0 @@
-PCAP/.gitignore
-#built using gitignore template from "https://github.com/github/gitignore"
-*.pcap
-*.txt
