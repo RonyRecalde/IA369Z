@@ -19,8 +19,9 @@
 
 # Execução
 
-1. Baixar a máquina virtual que já tem incluso todas as dependências.
-2. Fazer a instalação do BB-Gen
+1. Baixar a máquina virtual que já tem incluso todas as dependências
+2. Importar a máquina ao virtualbox ( Virtualbox: https://www.virtualbox.org/)
+2. Fazer a instalação do BB-Gen pelo cli
 
     step 1: $ sudo apt-get install git
 
