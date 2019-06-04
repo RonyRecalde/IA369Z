@@ -50,4 +50,5 @@ Foram disponibilizados varios exemplos .p4 que podem ser usados para testar o BB
 
 python main.py -p4 examples/p4_src/l3_fwd_ipv6.p4 -n 100
 
-6. sudo wireshark para fazer a captura do tráfego
+6. $ sudo wireshark 
+7. Analisar o tráfego capturado 
