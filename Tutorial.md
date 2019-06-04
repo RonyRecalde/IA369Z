@@ -23,12 +23,19 @@
 2. Fazer a instalação do BB-Gen
 
 step 1: $ sudo apt-get install git
+
 step 2: $ git clone --recursive https://github.com/intrig-unicamp/BB-Gen.git
+
 step 3: $ cd BB-Gen
+
 step 4: $ sudo ./dependencies.sh
+
 step 5: $ cd p4-hlir
+
 step 6: $ sudo python setup.py install
+
 step 7: $ cd ..
+
 step 8: $ python main.py
 
 3. Rodar um exemplo .p4
