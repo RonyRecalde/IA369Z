@@ -19,9 +19,10 @@
 
 # Execução
 
-1. Baixar a máquina virtual que já tem incluso todas as dependências
-2. Importar a máquina ao virtualbox ( Virtualbox: https://www.virtualbox.org/)
-2. Fazer a instalação do BB-Gen pelo cli
+1. Baizar o Virtualbox: https://www.virtualbox.org/
+2. Baixar a máquina virtual que já tem incluso todas as dependências
+3. Importar a nova máquina virtual ao virtualbox
+4. Iniciar a MV e fazer a instalação do BB-Gen pelo cli
 
     step 1: $ sudo apt-get install git
 
@@ -39,5 +40,5 @@
 
     step 8: $ python main.py
 
-3. Rodar um exemplo .p4
-4. Fazer a captura do tráfego
+5. Rodar um exemplo .p4
+6. Fazer a captura do tráfego
