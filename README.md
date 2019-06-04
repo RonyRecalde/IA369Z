@@ -74,10 +74,6 @@ Generation of random 1k IPv4 traces for performance test:
 
 $ `python main.py -p ipv4 -n 1000 -rnip -rnmac -rnport --performance`
 
-MACSAD use case:
-
-$ `python main.py -u macsad`
-
 Using a P4<sub>14</sub> code to autogenerate 100 traces:
 
 $ `python main.py -p4 examples/p4_src/l3_fwd_ipv6.p4 -n 100`
