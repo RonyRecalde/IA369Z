@@ -19,26 +19,35 @@
 
 # Execução
 
-1. Baizar o Virtualbox: https://www.virtualbox.org/
-2. Baixar a máquina virtual que já tem incluso todas as dependências
+BB-Gen funciona em SO baseados em Linux, então caso você use um SO diferente, pode começar o tutorial desde o primeiro paso senão vai para o paso 4.
+
+1. Baixar o Virtualbox: https://www.virtualbox.org/
+2. Baixar a máquina virtual que já tem incluso todas as dependências: https://drive.google.com/uc?id=1f22-DYlUV33DsR88_MeMb4s7-1NX_ams&export=download
 3. Importar a nova máquina virtual ao virtualbox
-4. Iniciar a MV e fazer a instalação do BB-Gen pelo cli
+4. Iniciar a MV e fazer a instalação do BB-Gen pelo terminal.
 
     step 1: $ sudo apt-get install git
+    
+    step 2: $ sudo apt-get remove --auto-remove python-scapy
 
-    step 2: $ git clone --recursive https://github.com/intrig-unicamp/BB-Gen.git
+    step 3: $ git clone --recursive https://github.com/intrig-unicamp/BB-Gen.git
 
-    step 3: $ cd BB-Gen
+    step 4: $ cd BB-Gen
 
-    step 4: $ sudo ./dependencies.sh
+    step 5: $ sudo ./dependencies.sh
 
-    step 5: $ cd p4-hlir
+    step 6: $ cd p4-hlir
 
-    step 6: $ sudo python setup.py install
+    step 7: $ sudo python setup.py install
 
-    step 7: $ cd ..
+    step 8: $ cd ..
 
-    step 8: $ python main.py
+    step 9: $ python main.py
 
 5. Rodar um exemplo .p4
-6. Fazer a captura do tráfego
+
+Foram disponibilizados varios exemplos .p4 que podem ser usados para testar o BB-Gen. A forma de rodar um programa .p4 é a seguinte:
+
+python main.py -p4 examples/p4_src/l3_fwd_ipv6.p4 -n 100
+
+6. sudo wireshark para fazer a captura do tráfego
