@@ -8,14 +8,21 @@ BB-Gen is simple CLI based packet crafter written in Python over Scapy library t
 
 ## Installation  
 step 1: $ `sudo apt-get install git`  
-step 2: $ `sudo apt-get remove --auto-remove python-scapy`
-step 3: $ `git clone --recursive https://github.com/intrig-unicamp/BB-Gen.git` 
 
-step 4: $ `cd BB-Gen`    
+step 2: $ `sudo apt-get remove --auto-remove python-scapy`
+
+step 3: $ `git clone --recursive https://github.com/intrig-unicamp/BB-Gen.git`   
+
+step 4: $ `cd BB-Gen`   
+
 step 5: $ `sudo ./dependencies.sh`  
+
 step 6: $ `cd p4-hlir`    
-step 7: $ `sudo python setup.py install`    
+
+step 7: $ `sudo python setup.py install` 
+
 step 8: $ `cd ..`      
+
 step 9: $ `python main.py`  
 
 BB-Gen generates a PCAP and Trace files.
