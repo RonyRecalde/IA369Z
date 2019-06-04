@@ -1,3 +1,6 @@
+THIS WAS BASED ON: https://github.com/intrig-unicamp/BB-Gen
+
+
 # BB-Gen
 
 BB-Gen paper executável desenvolvido na disciplina IA369Z - Reprodutibilidade em Pesquisa Computacional - FEEC - Unicamp
