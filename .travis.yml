@@ -1,0 +1,23 @@
+language: python
+sudo: required
+dist: trusty
+
+python:
+- 2.7
+
+before_install:
+- sudo apt-get install -y python-pip git python-yaml graphviz python-setuptools
+- sudo pip install scapy
+- git submodule update --init --recursive
+- cd p4-hlir
+- sudo python setup.py install
+- cd ..
+
+script:
+- sudo python main.py
+
+notifications:
+  email:
+    on_success: never
+# More details: https://docs.travis-ci.com/user/notifications#Configuring-email-notifications
+© 2019 GitHub, Inc.
