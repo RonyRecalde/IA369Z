@@ -24,7 +24,7 @@ BB-Gen funciona em SO baseados em Linux, então caso você use um SO diferente, 
 1. Baixar o Virtualbox: https://www.virtualbox.org/
 2. Baixar a máquina virtual que já tem incluso todas as dependências: https://drive.google.com/uc?id=1f22-DYlUV33DsR88_MeMb4s7-1NX_ams&export=download
 3. Importar a nova máquina virtual ao virtualbox
-4. Iniciar a MV e fazer a instalação do BB-Gen pelo terminal.
+4. Fazer a instalação do BB-Gen pelo terminal.
 
     step 1: $ sudo apt-get install git
     
