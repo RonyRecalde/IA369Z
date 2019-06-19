@@ -1,4 +1,4 @@
-THIS WAS BASED ON: https://github.com/intrig-unicamp/BB-Gen
+THIS WORK WAS BASED ON: https://github.com/intrig-unicamp/BB-Gen
 
 THERE IS A FILE IN THIS REPOSITORY CALLED TUTORIAL TO HELP YOU TO REPRODUCE THIS PAPER.
 
