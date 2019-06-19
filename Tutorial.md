@@ -17,6 +17,9 @@
 /scr - códigos P4
 
 
+
+
+
 # Execução
 
 BB-Gen funciona em SO baseados em Linux, então caso você use um SO diferente, pode começar o tutorial desde o primeiro paso se não vai direito para o passo 4. 
@@ -56,3 +59,5 @@ Todos os exemplos que podem ser usados estão na pasta /home/p4/BB-Gen/examples/
 6. Abrir o wireshark 
 7. Ir na pasta /home/p4/BB-Gen/PCAP
 7. Analisar os PCAPs gerados no wireshark
+
+
