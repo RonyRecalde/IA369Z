@@ -58,6 +58,6 @@ Todos os exemplos que podem ser usados estão na pasta /home/p4/BB-Gen/examples/
 
 6. Abrir o wireshark 
 7. Ir na pasta /home/p4/BB-Gen/PCAP
-7. Analisar os PCAPs gerados no wireshark
+8. Analisar os PCAPs gerados no wireshark
 
 
